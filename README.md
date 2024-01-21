@@ -1,15 +1,13 @@
-# Frick-ZyBooks
-Me and my homies hate zybooks
-
-Feel free to email me with questions, I am working on this project daily (as of 8/26/23)
+# Quizlet plus plus
+sign out of quizlet to access textbook answers for free with this extension for chrome.
+This project just repackages [another project](https://github.com/troop129/QuizletAnswers) for easier installation and development.
 
 
 # instructions:
-save to a folder named "frick-zybooks"
+save to a folder named "qpp" or something
 
 in chrome, go to "chrome://extensions/"
 
 click load unpacked.
 
-select the folder called "frick-zybooks"
-
+select the folder called "qpp" or something
