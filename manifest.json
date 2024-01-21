@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Quizlet++",
+  "version": "1.0",
+  "description": "Make Quizlet free",
+  "permissions": [
+    "storage"
+  ],
+  "options_page": "options.html",
+  "icons": {
+    "16": "images/Q++16.png",
+    "32": "images/Q++32.png",
+    "48": "images/Q++48.png",
+    "64": "images/Q++64.png",
+    "128": "images/Q++128.png"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "run_at": "document_end",
+      "js": ["scripts/content.js"],
+      "matches": [
+        "https://quizlet.com/explanations/textbook-solutions/*"
+      ]
+    }
+  ]
+}
